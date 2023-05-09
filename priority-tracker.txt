@@ -1,0 +1,5 @@
+[34m[34m[34mChange variable double to BigDecimal in the project Personal Finance Manager[0m[0m[0m,very high,2023-05-09,2023-05-15
+[34m[34m[34mStart the project Nature Hero in Spring Boot[0m[0m[0m,high,2023-05-09,2023-06-09
+[34m[34m[34mMommy's birthday gift [0m[0m[0m,medium,2023-05-09,2023-09-18
+[34m[34mPrepare CV[0m[0m,high,2023-05-05,2023-05-09
+Make an appointment with a doctor,medium,2023-05-09,2023-05-10
