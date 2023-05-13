@@ -1,8 +1,9 @@
-package pl.milenamrugala;
+package pl.milenamrugala.prioritytracker;
 
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -52,10 +53,28 @@ public class PriorityTracker {
             System.out.println("No tasks to display.");
             return;
         }
-        int index = 1;
-        for (Task task : tasks) {
-            System.out.println(index + ". " + task.toString());
-            index++;
+        System.out.println("Select a list type: 'regular' or 'due'");
+        String input = scanner.nextLine();
+        switch (input) {
+            case "regular":
+                int index = 1;
+                for (Task task : tasks) {
+                    System.out.println(index + ". " + task.toString());
+                    index++;
+                }
+                break;
+            case "due":
+                List<Task> sortedTasks = new ArrayList<>(tasks);
+                Collections.sort(sortedTasks);
+                int dueIndex = 1;
+                for (Task task : sortedTasks) {
+                    System.out.println(dueIndex + ". " + task.toString());
+                    dueIndex++;
+                }
+                break;
+            default:
+                System.out.println("Invalid option.");
+                break;
         }
     }
 

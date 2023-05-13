@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd7c41f4-29a6-4384-9ce1-b1b6e1489527" name="Changes" comment="">
+    <list default="true" id="cd7c41f4-29a6-4384-9ce1-b1b6e1489527" name="Changes" comment="show tasks, priorities and due date, add task, remove task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/priority-tracker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/priority-tracker.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/PriorityTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/PriorityTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/prioritytracker/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/PriorityTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/prioritytracker/PriorityTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/milenamrugala/prioritytracker/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +57,11 @@
 }</component>
   <component name="RunManager">
     <configuration name="PriorityTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.milenamrugala.PriorityTracker" />
+      <option name="MAIN_CLASS_NAME" value="pl.milenamrugala.prioritytracker.PriorityTracker" />
       <module name="priority-tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.milenamrugala.*" />
+          <option name="PATTERN" value="pl.milenamrugala.prioritytracker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +84,24 @@
       <option name="presentableId" value="Default" />
       <updated>1683478968916</updated>
       <workItem from="1683478971580" duration="3782000" />
-      <workItem from="1683638436193" duration="6176000" />
+      <workItem from="1683638436193" duration="6488000" />
+      <workItem from="1683990555603" duration="1119000" />
     </task>
+    <task id="LOCAL-00001" summary="show tasks, priorities and due date, add task, remove task">
+      <created>1683644652587</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683644652588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="show tasks, priorities and due date, add task, remove task" />
+    <option name="LAST_COMMIT_MESSAGE" value="show tasks, priorities and due date, add task, remove task" />
   </component>
 </project>

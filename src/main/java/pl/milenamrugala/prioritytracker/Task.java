@@ -1,9 +1,9 @@
-package pl.milenamrugala;
+package pl.milenamrugala.prioritytracker;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class Task {
+public class Task implements Comparable<Task> {
     private String description;
     private String priority;
     private LocalDate startDate;
@@ -59,7 +59,7 @@ public class Task {
         if (daysLeft == 0) {
             return Color.RED + "Due today" + Color.RESET;
         } else if (daysLeft == 1) {
-            return  Color.RED + "Due tomorrow" + Color.RESET;
+            return Color.RED + "Due tomorrow" + Color.RESET;
         } else if (daysLeft < 0) {
             return Color.RED + "Past due" + Color.RESET;
         } else if (daysLeft <= 31) {
@@ -67,5 +67,10 @@ public class Task {
         } else {
             return Color.GREEN + "Due in " + daysLeft + " days" + Color.RESET;
         }
+    }
+
+    @Override
+    public int compareTo(Task other) {
+        return this.endDate.compareTo(other.endDate);
     }
 }

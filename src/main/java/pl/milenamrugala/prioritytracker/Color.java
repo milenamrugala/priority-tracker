@@ -1,4 +1,4 @@
-package pl.milenamrugala;
+package pl.milenamrugala.prioritytracker;
 
 public class Color {
     public static final String RESET = "\033[0m";
